@@ -3,7 +3,7 @@ void setup()
 {
  size (400, 400);
  background(0);
- snowing = new SnowFlake[300];
+ snowing = new SnowFlake[50];
  for (int i = 0; i < snowing.length; i++){
   snowing[i] = new SnowFlake();
  }
